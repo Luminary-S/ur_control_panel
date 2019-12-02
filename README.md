@@ -1,4 +1,4 @@
-# UR control panel instead use ur panel
+# UR control panel 
 
 ## prepare:
 1. ros
