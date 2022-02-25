@@ -1,0 +1,9 @@
+<launch>
+    <arg name="pkg_name"  default="demo_ur_gui" />
+        
+
+    <!-- UR controller GUI -->
+    <node name="testmsg" pkg="$(arg pkg_name)" type="force_msg.py" output="screen" >
+    </node>
+
+</launch>
